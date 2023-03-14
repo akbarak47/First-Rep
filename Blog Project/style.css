@@ -1,0 +1,127 @@
+/*Gunmetal Gray*/
+/*#666666*/
+
+/*Cream*/
+/*#E8E6D0*/
+
+/*Pewter*/
+/*#C8CDD3*/
+
+/*Taupe*/
+/*#A39D92*/
+
+
+body {
+    font-family: Montserrat, sans-serif;
+    padding-top: 2%;
+}
+
+.dark-container {
+    background-color: #3471ff;
+}
+
+.light-container {
+    /*background-color: #E8E6D0;*/
+}
+
+h1 {
+    text-align: center;
+    margin: 3% auto 5%;
+    padding-top: 2%;
+}
+
+section {
+    padding: 5% 10%;
+}
+
+/*#title {*/
+/*    padding: 3% 15% 7%;*/
+/*}*/
+
+.navbar {
+    /*background-color: #666666;*/
+    padding: 1% 10%;
+}
+
+.navbar-brand {
+    font-size: 4rem;
+    font-family: Montserrat, sans-serif;
+    padding-left: 10px;
+    /*margin: auto 15%;*/
+}
+
+.nav-link {
+    margin: auto 10px;
+}
+
+@media (max-width: 1000px) {
+    #write {
+        padding-left: 10%;
+        padding-right: 10%;
+
+    }
+
+    section {
+        padding: 10% 10%;
+    }
+}
+
+.navbar-nav {
+    margin: auto 0 auto 3%;
+}
+
+#title {
+    min-height: 300px;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+.tagline {
+    padding: 7% 10px;
+    /*position: relative;*/
+    top: 30px;
+}
+
+#footer {
+    text-align: center;
+}
+
+.social-icon {
+    color: #000;
+}
+
+#homebanner {
+    width: 100%;
+    object-fit: fill;
+}
+
+#blogBannerImage {
+    height: content-box;
+    max-width: 90%;
+    align-self: center;
+    margin: auto auto 5%;
+    object-fit: fill;
+}
+
+#blogContent {
+    text-align: justify;
+    white-space: pre-line;
+}
+
+#articleDetail {
+    text-align: center;
+}
+
+#blogAuthor {
+    margin: auto auto 3%
+}
+
+#blogTitle {
+    margin: auto auto 2%
+}
+
+#auto-fill {
+    margin: 3% auto;
+}
